@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div class="screen" id="screen">
+        <div class="display">
+            <div class="game" id="game">
+                <div class="numbers" id="numbers">0</div>
+                <button id="button" class="button">стоп</button>
+            </div>
+        </div>
+        <div class="body">
+            <div class="floor" id="floor"></div>
+            <div class="train" id="train">
+                <img src="Group 4 (1).svg" alt="space">
+            </div>
+        </div>
+    </div>
+    <div class="height-position">
+        <div class="height" id="height">
+            <div class="height-line"></div>
+            <div class="height-number" id="heightNumber">100м</div>
+            <div class="height-line"></div>
+        </div>
+    </div>
+
+    <div class="display-end" id="display">
+        <div class="result">
+            <p class="result-text">Ваш резульат:</p>
+            <p class="result-point" id="resultPoint">0</p>
+        </div>
+        <div class="repeat">
+            <img src="repeat.svg" alt="repeat" id="repeatButton" onclick="repeatOnClick(this)">
+        </div>
+    </div>
+    
+    <div class="effects">
+        <img src="berd.png" alt="" id="berd">
+    </div>
+    <div class="effects-center">
+        <img src="clouds.png" alt="" id="clouds">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
